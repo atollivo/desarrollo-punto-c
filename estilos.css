@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 16px; 
+}
+
+body{
+  font-family: "Montserrat", sans-serif;
+  background-color: rgba(255, 255, 25, 0.5);
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpa19QDUIMNq6xmTROwHKBCiDubY5pwdLDEg&s);
+  background-position: 0% 20%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.contenedor{
+  font-family: 'Pacifico', cursive;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 90vw;   
+  min-height: 80vh; 
+
+.card{
+  width: 20em; 
+  background-color: #f2f2f2;
+  padding: 1.5em;
+  margin: 1.5em;
+  border-radius: 50px;
+  border: solid 0.5px #f10000;
+  display: inline-block;
+}
+.card img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  max-height: 280px;
+  margin: 16px auto;
+  filter: drop-shadow(2px 0px 8px #515151);
+}
+.card h2{
+  margin-top: 2px;
+  margin-bottom: 8px;
+  color: #373737;
+  text-align: center;
+}
+.card p{
+  font-size: 1em; 
+  color: #515151;
+  text-align: center;
+}
+
+.punto.c1{
+  background-color: #6ffd65d0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: none;
+}
+.punto.c2{ background-color: rgb(41, 173, 185);}
+.punto.c3{ background-color: rgb(69, 243, 211);}
+.punto.c4{ background-color: rgb(250, 46, 46);}
+.punto.c5{ background-color: rgb(224, 26, 102);}
+.punto.c6{ background-color: rgb(122, 82, 233);}
+.punto.c7{ background-color: rgba(255, 255, 0, 0.705);}
+.punto.c8{ background-color: #ab2121;}
+.punto.c9{ background-color: #a10dc2;}
+.punto.c10{ background-color: #81cf04;}
+.punto.c11{ background-color: #10e6db;}
+.punto.c12{ background-color: #1c30ca;}
